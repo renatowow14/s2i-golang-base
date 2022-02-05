@@ -1,0 +1,8 @@
+#!/bin/bash
+
+echo '=============================================================='
+echo "[INFO] directory: $(pwd)  user: $(id -u) - script: $0" 
+echo '=============================================================='
+
+echo "---> Run Application!..."
+exec /opt/app-root/goserver $ARGS

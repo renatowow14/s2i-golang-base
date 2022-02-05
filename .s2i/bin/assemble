@@ -1,0 +1,12 @@
+#!/bin/bash
+
+echo '=============================================================='
+echo "[INFO] directory: $(pwd)  user: $(id -u) - script: $0" 
+echo '=============================================================='
+
+echo "---> Preparing source..."
+mkdir -pv $HOME
+
+# Copy the source
+cp -arv /opt/app-root/destination/src/* $HOME
+rm -rfv destination/ src/
