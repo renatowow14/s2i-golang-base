@@ -1,4 +1,4 @@
-# web-golang
+# s2i-golang-base
 
 # Build image to be used in the build process by openshift:
 
